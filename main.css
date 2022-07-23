@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header , footer{
+    background-color: aliceblue;
+    height: 70px;
+    padding: 10px 15%;
+    position: relative;
+}
+
+header .logo img ,
+footer .logo img{
+    width: 70px;
+    height: 50px;
+}
+
+header div,
+footer div{
+    display: inline;
+    position: absolute;
+    top: 15%;
+}
+
+header .links,
+footer .links {
+    left: 25%;
+}
+
+header .links a ,
+footer .links a{
+    display: inline-block;
+    /* background-color: red; */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+header .buttons ,
+footer .buttons{
+    right: 15%;
+}
+
+header .buttons button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.section1 {
+    position: relative;
+    height: 300px;
+}
+
+.section1 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.section1 .text{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 10%;
+    left: 15%;
+}
+
+.section2 {
+    position: relative;
+    height: 500px;
+    text-align: center;
+}
+
+.section2 .card {
+    display: inline-block;
+    width: 24%;
+    padding: 20px;
+}
+
+.section2 div img {
+    width: 100%;
+    height: 275px;
+}
+
+.section3 {
+    position: relative;
+    height: 350px;
+}
+
+.section3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section4 {
+    height: 400px;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.section4 .img {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    width: 400px;
+}
+
+.section4 .img img {
+    width: 100%;
+}
+
+
+.section4 .text {
+    position: absolute;
+    width: 35%;
+    right: 15%;
+    top: 30%;
+}
+
+.section5 .text {
+    left: 15%;
+}
+
+.section5 .imag {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    width: 400px;
+}
+
+.section5 .imag img {
+    width: 100%;
+}
+
+.section6 {
+    position: relative;
+    height: 280px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section6 .card {
+    width: 24%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.section7 {
+    position: relative;
+    height: 500px;
+    text-align: center;
+}
+
+.section7 .card {
+    display: inline-block;
+    width: 34%;
+    padding: 20px;
+    position: relative;
+}
+
+.section7 .card img {
+    width: 100%;
+    height: 300px;
+}
+
+.section7 h3 {
+    display: inline;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+
+.section7 .date {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.section7 .name {
+    position: absolute;
+    bottom: -20px;
+}
+
+.section8 {
+    position: relative;
+    text-align: center;
+    height: 150px;
+}
+
+.section8 input[type=email] {
+    width: 300px;
+    height: 30px;
+}
+.section8 input[type=submit] {
+    width: 100px;
+    height: 30px;
+}
+
+footer .buttons select {
+    margin-top: 15%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.sectionForm {
+    position: relative;
+    /* left: 15%; */
+    margin: 20px 15% 0;
+}
+
+.sectionForm input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.sectionForm .img {
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+.sectionForm .img img {
+    width: 300px;
+    height: 300px;
+}
+
+.sectionTable {
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+    height: 450px;
+}
+
+.sectionTable table {
+    left: 20%;
+    border: 1px solid;
+    border-collapse: collapse;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.sectionTable table th {
+    width: 20%;
+    border: 2px solid;
+    height: 40px;
+}
+
+.sectionTable table td {
+    border: 1px solid;
+    height: 40px;
+}
+
+.sectionSport {
+    text-align: center;
+    height: 500px;
+}
+
+.sectionSport .card {
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+}
+
+.sectionSport .card img {
+    width: 100%;
+    height: 300px;
+}
